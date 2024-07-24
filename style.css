@@ -1,0 +1,332 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+}
+header {
+    background: white;
+    padding: 20px 0;
+}
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.head-content ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.head-content ul li {
+    margin-left: 20px;
+}
+
+.head-content ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.head-content ul li button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+/* Home section styling */
+#home {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+.hero-content {
+    max-width: max-content;
+    margin: 0 auto;
+}
+.hero-content h1{
+    line-height: 42px;
+    margin: 20px 0;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 35px; 
+    font-weight: bold;
+}
+.hero-content p {
+    margin: 20px 0;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.buttons {
+    margin: 20px 0;
+}
+.border-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.filled-button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.hero-content img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Image section styling */
+.image-section {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden; 
+}
+.image-section img {
+    border: 1px solid #E5E5E5; 
+    padding: 30px; 
+    width: calc(100% / 8 - 2px); 
+    box-sizing: border-box; 
+}
+
+
+
+/* Service section styling */
+.service-section {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+.service-item{
+    padding: 50px;
+}
+
+
+
+
+
+
+/* Content section styling */
+.content-section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    gap: 20px; 
+}
+.section-white {
+    background-color: #fff;
+    color: #000;
+    padding: 7%;
+}
+.section-black {
+    background-color: #000;
+    color: #fff;
+    padding: 7%;
+}
+.text-content {
+    flex: 1;
+    max-width: 50%; 
+}
+.text-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.text-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.text-content .primary-button,
+.text-content .secondary-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.primary-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+.secondary-button {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 20px; 
+}
+.section-black .primary-button {
+    background-color: #fff;
+    color: #000;
+}
+.section-black .secondary-button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px; 
+}
+
+.image-content {
+    flex: 1;
+    max-width: 50%; 
+}
+.image-content img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+
+
+
+/* Centered section styling */
+.centered-section {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    padding: 50px;
+}
+
+.centered-section h1 {
+    line-height: 42px;
+    margin: 20px 0;
+    font-size: 35px; 
+    font-weight: bold;
+    margin-left: 35%; 
+    margin-right: 35%; 
+}
+
+.centered-section p {
+    margin: 20px 0;
+    margin-left: 30%;
+    margin-right: 30%; 
+}
+
+.buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.border-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.filled-button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px; 
+}
+
+
+
+
+/* Ensure all divs are displayed in a single line */
+.categories {
+    color: #333945;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+.categories > div {
+    margin: 50px; 
+    padding: 30px;
+}
+.categories ul {
+    list-style-type: none; 
+    padding: 0;
+}
+.categories ul li {
+    margin-bottom: 8px; 
+    font-size: 14px; 
+}
+.categories h3 {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.categories span {
+    background-color: black; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+}
+
+
+
+/* Style for the section language*/
+.language-section {
+    text-align: center;
+    margin: 0 70px; 
+    padding: 20px 0; 
+    border-top: 1px solid #D4D6DB; 
+    border-bottom: 1px solid #D4D6DB;
+}
+.language-section a {
+    text-decoration: none; 
+    margin: 0 10px; 
+    color: #010102; 
+}
+.language-section a:first-child {
+    text-decoration: underline; 
+}
+
+
+
+footer {
+    text-align: center;
+}
+ul.footer {
+    list-style: none; 
+    padding: 10px  70px; 
+    display: flex;
+    justify-content: space-between;
+}
+ul.footer li.last {
+    margin-left: auto; 
+}
+li{
+    padding: 0 10px;
+}
+
+
